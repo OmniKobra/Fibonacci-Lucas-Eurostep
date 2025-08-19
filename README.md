@@ -9,6 +9,7 @@ Rule 1: Fn​+1 = (Fn + Ln) / 2
 Rule 2: Fn + Ln -> Always Even
 Rule 3: Ln = 2Fn+1 - Fn
 Rule 4: Fn = 2Fn+1 - Ln
+
 ---
 
 ## 🚀 Features
