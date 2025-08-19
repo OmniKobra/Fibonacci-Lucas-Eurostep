@@ -3,15 +3,12 @@
 A novel identity and rule for generating Fibonacci and Lucas numbers without relying on the classical two-term recurrence.  
 The **Fibonacci–Lucas Eurostep (FLE)** “sidesteps” the usual dependency on `F(n-1)` by using a forward-only approach that involves halving and summation principles. To get the next fibonacci number: get the sum of the current Fibonacci and Lucas numbers then divide it by 2.
 The result always yields an even number and provides the next fibonacci number after being halved.
+
 The breakthrough rules are:
-
 Rule 1: Fn​+1 = (Fn + Ln) / 2
-
 Rule 2: Fn + Ln -> Always Even
-
-So Implicitly these rules are also always true:
-Ln = 2Fn+1 - Fn
-Fn = 2Fn+1 - Ln
+Rule 3: Ln = 2Fn+1 - Fn
+Rule 4: Fn = 2Fn+1 - Ln
 ---
 
 ## 🚀 Features
