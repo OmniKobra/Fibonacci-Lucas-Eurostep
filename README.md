@@ -5,10 +5,10 @@ The **Fibonacci–Lucas Eurostep (FLE)** “sidesteps” the usual dependency on
 The result always yields an even number and provides the next fibonacci number after being halved.
 
 The breakthrough rules are:
-Rule 1: Fn​+1 = (Fn + Ln) / 2
-Rule 2: Fn + Ln -> Always Even
-Rule 3: Ln = 2Fn+1 - Fn
-Rule 4: Fn = 2Fn+1 - Ln
+- Rule 1: Fn​+1 = (Fn + Ln) / 2
+- Rule 2: Fn + Ln -> Always Even
+- Rule 3: Ln = 2Fn+1 - Fn
+- Rule 4: Fn = 2Fn+1 - Ln
 
 ---
 
